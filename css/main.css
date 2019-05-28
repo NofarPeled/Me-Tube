@@ -1,0 +1,122 @@
+body {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 96%;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100',GradientType=0);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.link {
+    font-family: OpenSans;
+    float: left;
+    text-align: center;
+    width: 16.6667%;
+    padding: 10px 0px;   
+    color: white; 
+    text-decoration: none;
+}
+
+.link:hover{
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00',GradientType=0);
+    background-color:#ce0100;
+    border-radius: 5px;
+}
+
+.side-bar {
+    float: right;
+    padding: 20px;
+    width: 20%;
+    background-color: rgba(250, 189, 189, 0.5);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: DancingScript;
+}
+
+.main {
+    margin: 0 auto;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 6px;
+    text-align: center;
+    font-family: OpenSans;
+    font-style: italic;
+    width: 75%;
+}
+
+
+.clip-div {
+    float: left;
+    border: 1px solid rgba(80, 1, 1, 0.5); 
+    border-radius: 3px;
+    width: 33%;
+    padding: 7px 0px 0px 0px;
+    height: 250px;
+}   
+
+.gif:hover { 
+    zoom: 115%;
+    cursor:pointer;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.gif-div-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.video-duration {
+    font-size: 0.8rem;
+    color: rgba(54, 54, 54, 0.822);
+    margin: 5px;
+    
+}
+
+.side-bar span {
+    font-family: OpenSans;
+    font-weight: bold;
+}
+
+.copy-rights {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.582);
+    font-family: OpenSans;
+    color: white;
+    margin: 0px;
+    padding: 5px 10px;
+
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url('../fonts/OpenSans-Italic.ttf')
+}
+@font-face {
+    font-family: "DancingScript";
+    src: url('../fonts/DancingScript-Regular.ttf')
+}
